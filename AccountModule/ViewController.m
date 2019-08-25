@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "AccountLoginViewController.h"
+#import "AccountUserViewController.h"
 
 @interface ViewController ()
 
@@ -19,5 +21,12 @@
     // Do any additional setup after loading the view.
 }
 
+- (IBAction)clickButton:(id)sender {
+//    AccountLoginViewController *loginViewController = [[AccountLoginViewController alloc] init];
+//    [self presentViewController:[[UINavigationController alloc] initWithRootViewController:loginViewController] animated:YES completion:nil];
+    
+    AccountUserViewController *userViewController = [[AccountUserViewController alloc] init];
+    self.view.window.rootViewController = userViewController;
+}
 
 @end

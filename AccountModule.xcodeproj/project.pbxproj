@@ -7,15 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3341AC3323127C8A000285C7 /* AccountLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3341AC3223127C8A000285C7 /* AccountLoginViewController.m */; };
+		3341AC3623127F60000285C7 /* AccountRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3341AC3523127F60000285C7 /* AccountRegisterViewController.m */; };
+		3341AC392312807C000285C7 /* AccountUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3341AC382312807C000285C7 /* AccountUserViewController.m */; };
+		3341AC3D2312833C000285C7 /* AccountUserService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3341AC3C2312833C000285C7 /* AccountUserService.m */; };
+		3341AC41231288D2000285C7 /* Target_Account.m in Sources */ = {isa = PBXBuildFile; fileRef = 3341AC40231288D2000285C7 /* Target_Account.m */; };
 		338A3B8323127A3A000B610C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 338A3B8223127A3A000B610C /* AppDelegate.m */; };
 		338A3B8623127A3A000B610C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 338A3B8523127A3A000B610C /* ViewController.m */; };
 		338A3B8923127A3A000B610C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 338A3B8723127A3A000B610C /* Main.storyboard */; };
 		338A3B8B23127A3B000B610C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 338A3B8A23127A3B000B610C /* Assets.xcassets */; };
 		338A3B8E23127A3B000B610C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 338A3B8C23127A3B000B610C /* LaunchScreen.storyboard */; };
 		338A3B9123127A3B000B610C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 338A3B9023127A3B000B610C /* main.m */; };
+		58B0F9349A97F24B6349E838 /* libPods-AccountModule.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5628AF5DDFF9DD72218EC47 /* libPods-AccountModule.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3341AC3123127C8A000285C7 /* AccountLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountLoginViewController.h; sourceTree = "<group>"; };
+		3341AC3223127C8A000285C7 /* AccountLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountLoginViewController.m; sourceTree = "<group>"; };
+		3341AC3423127F60000285C7 /* AccountRegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountRegisterViewController.h; sourceTree = "<group>"; };
+		3341AC3523127F60000285C7 /* AccountRegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountRegisterViewController.m; sourceTree = "<group>"; };
+		3341AC372312807C000285C7 /* AccountUserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountUserViewController.h; sourceTree = "<group>"; };
+		3341AC382312807C000285C7 /* AccountUserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountUserViewController.m; sourceTree = "<group>"; };
+		3341AC3B2312833C000285C7 /* AccountUserService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountUserService.h; sourceTree = "<group>"; };
+		3341AC3C2312833C000285C7 /* AccountUserService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountUserService.m; sourceTree = "<group>"; };
+		3341AC3F231288D2000285C7 /* Target_Account.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_Account.h; sourceTree = "<group>"; };
+		3341AC40231288D2000285C7 /* Target_Account.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_Account.m; sourceTree = "<group>"; };
 		338A3B7E23127A3A000B610C /* AccountModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccountModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		338A3B8123127A3A000B610C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		338A3B8223127A3A000B610C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +42,9 @@
 		338A3B8D23127A3B000B610C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		338A3B8F23127A3B000B610C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		338A3B9023127A3B000B610C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		61CA6B0AB740EE07EC7422E1 /* Pods-AccountModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccountModule.release.xcconfig"; path = "Target Support Files/Pods-AccountModule/Pods-AccountModule.release.xcconfig"; sourceTree = "<group>"; };
+		BA1739A974F9B266606F4601 /* Pods-AccountModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccountModule.debug.xcconfig"; path = "Target Support Files/Pods-AccountModule/Pods-AccountModule.debug.xcconfig"; sourceTree = "<group>"; };
+		C5628AF5DDFF9DD72218EC47 /* libPods-AccountModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AccountModule.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +52,69 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58B0F9349A97F24B6349E838 /* libPods-AccountModule.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3341AC2823127C5A000285C7 /* AccountModule */ = {
+			isa = PBXGroup;
+			children = (
+				3341AC3E231288C1000285C7 /* Actions */,
+				3341AC2923127C5A000285C7 /* Controller */,
+				3341AC2A23127C5A000285C7 /* Model */,
+				3341AC2B23127C5A000285C7 /* View */,
+			);
+			path = AccountModule;
+			sourceTree = "<group>";
+		};
+		3341AC2923127C5A000285C7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3341AC3123127C8A000285C7 /* AccountLoginViewController.h */,
+				3341AC3223127C8A000285C7 /* AccountLoginViewController.m */,
+				3341AC3423127F60000285C7 /* AccountRegisterViewController.h */,
+				3341AC3523127F60000285C7 /* AccountRegisterViewController.m */,
+				3341AC372312807C000285C7 /* AccountUserViewController.h */,
+				3341AC382312807C000285C7 /* AccountUserViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3341AC2A23127C5A000285C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3341AC3B2312833C000285C7 /* AccountUserService.h */,
+				3341AC3C2312833C000285C7 /* AccountUserService.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3341AC2B23127C5A000285C7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3341AC3E231288C1000285C7 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				3341AC3F231288D2000285C7 /* Target_Account.h */,
+				3341AC40231288D2000285C7 /* Target_Account.m */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
 		338A3B7523127A3A000B610C = {
 			isa = PBXGroup;
 			children = (
 				338A3B8023127A3A000B610C /* AccountModule */,
 				338A3B7F23127A3A000B610C /* Products */,
+				F795A93428606D6936BB9394 /* Pods */,
+				F40686EA53ADABD07155EA36 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +129,7 @@
 		338A3B8023127A3A000B610C /* AccountModule */ = {
 			isa = PBXGroup;
 			children = (
+				3341AC2823127C5A000285C7 /* AccountModule */,
 				338A3B8123127A3A000B610C /* AppDelegate.h */,
 				338A3B8223127A3A000B610C /* AppDelegate.m */,
 				338A3B8423127A3A000B610C /* ViewController.h */,
@@ -71,6 +143,23 @@
 			path = AccountModule;
 			sourceTree = "<group>";
 		};
+		F40686EA53ADABD07155EA36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5628AF5DDFF9DD72218EC47 /* libPods-AccountModule.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F795A93428606D6936BB9394 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA1739A974F9B266606F4601 /* Pods-AccountModule.debug.xcconfig */,
+				61CA6B0AB740EE07EC7422E1 /* Pods-AccountModule.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,6 +167,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 338A3B9423127A3B000B610C /* Build configuration list for PBXNativeTarget "AccountModule" */;
 			buildPhases = (
+				C2DCD42829D7216758F92D6F /* [CP] Check Pods Manifest.lock */,
 				338A3B7A23127A3A000B610C /* Sources */,
 				338A3B7B23127A3A000B610C /* Frameworks */,
 				338A3B7C23127A3A000B610C /* Resources */,
@@ -136,14 +226,44 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C2DCD42829D7216758F92D6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AccountModule-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		338A3B7A23127A3A000B610C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3341AC3323127C8A000285C7 /* AccountLoginViewController.m in Sources */,
+				3341AC3D2312833C000285C7 /* AccountUserService.m in Sources */,
+				3341AC392312807C000285C7 /* AccountUserViewController.m in Sources */,
 				338A3B8623127A3A000B610C /* ViewController.m in Sources */,
 				338A3B9123127A3B000B610C /* main.m in Sources */,
 				338A3B8323127A3A000B610C /* AppDelegate.m in Sources */,
+				3341AC41231288D2000285C7 /* Target_Account.m in Sources */,
+				3341AC3623127F60000285C7 /* AccountRegisterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +403,7 @@
 		};
 		338A3B9523127A3B000B610C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA1739A974F9B266606F4601 /* Pods-AccountModule.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +420,7 @@
 		};
 		338A3B9623127A3B000B610C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61CA6B0AB740EE07EC7422E1 /* Pods-AccountModule.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
