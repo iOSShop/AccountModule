@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "AccountModule"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "AccountModule."
 
   s.description  = <<-DESC
@@ -22,5 +22,5 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-
+  s.dependency "GoodsModule_Category"
 end

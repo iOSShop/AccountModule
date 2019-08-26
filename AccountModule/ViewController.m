@@ -26,7 +26,7 @@
 //    [self presentViewController:[[UINavigationController alloc] initWithRootViewController:loginViewController] animated:YES completion:nil];
     
     AccountUserViewController *userViewController = [[AccountUserViewController alloc] init];
-    self.view.window.rootViewController = userViewController;
+    [self presentViewController:[[UINavigationController alloc] initWithRootViewController:userViewController] animated:YES completion:nil];
 }
 
 @end

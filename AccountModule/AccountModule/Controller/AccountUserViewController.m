@@ -9,6 +9,7 @@
 #import "AccountUserViewController.h"
 #import "AccountUserService.h"
 #import "AccountLoginViewController.h"
+#import <GoodsModule_Category/CCMediator+GoodsModule.h>
 
 @interface AccountUserViewController ()<UITableViewDelegate, UITableViewDataSource>
 @property (nonatomic, strong) UITableView *tableView;
@@ -80,7 +81,12 @@
             [self presentViewController:[[UINavigationController alloc] initWithRootViewController:loginViewController] animated:YES completion:nil];
         }
     } else {
-        
+        if (indexPath.row == 0) {
+            UIViewController *viewController = [[CCMediator sharedInstance] Goods_viewControllerForMineList];
+            [self.navigationController pushViewController:viewController animated:YES];
+        } else {
+            
+        }
     }
 }
 
